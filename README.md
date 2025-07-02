@@ -1,34 +1,31 @@
-# Python Voice Assistant 🎙️
+# 🎙️ Python Voice Assistant
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python" alt="Python Version">
+A versatile voice assistant built with Python that can perform various tasks through voice commands.
 
-</div>
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-## Overview 🌟
-A voice-controlled assistant that performs tasks through natural language commands. Perfect for hands-free operation and smart home integration.
+## ✨ Features
 
-![Voice Assistant Demo](demo.gif) *(Replace with actual demo GIF)*
+- **🗣️ Voice Interaction** (Speech-to-Text and Text-to-Speech)
+- **🌍 Wikipedia Search** - Get information on any topic
+- **🎬 YouTube Player** - Play videos by voice command
+- **📰 News Updates** - Latest headlines from NewsAPI
+- **😂 Jokes** - Random jokes to lighten your mood
+- **🧠 Facts** - Interesting random facts
+- **🤖 GPT Integration** - Chat with AI
 
-## Features ✨
+## 🚀 Quick Start
 
-### Core Capabilities
-| Category        | Functionality                                                                 |
-|-----------------|------------------------------------------------------------------------------|
-| 🗣️ Voice Control | Speech recognition and text-to-speech response                              |
-| 🔍 Information  | Wikipedia searches with summary narration                                   |
-| ▶️ Media        | YouTube video playback by voice request                                     |
-| 📰 News         | Latest headlines from 30,000+ sources via NewsAPI                           |
-| 😄 Entertainment| Jokes and random facts generator                                            |
-| 🤖 AI Chat      | GPT-3.5 integration for intelligent conversations                          |
-
-## Prerequisites 📋
-
-### System Requirements
+### Prerequisites
 - Python 3.8+
-- Chrome/Firefox browser
-- Microphone
+- Chrome browser
+- API keys for:
+  - OpenAI
+  - NewsAPI
 
-### Python Packages
+### Installation
 ```bash
-pip install pyttsx3 speechrecognition selenium requests randfacts openai
+git clone https://github.com/yourusername/voice-assistant.git
+cd voice-assistant
+pip install -r requirements.txt
